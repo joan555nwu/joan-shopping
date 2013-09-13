@@ -1,0 +1,132 @@
+#navigation{
+  width: 784px;
+  padding: 8px;
+  margin: 8px auto;
+  background: #3B5998;
+  height: 18px;
+}
+
+#navigation ul li{
+  float: left;
+  margin-right: 14px;
+  position: relative;
+  z-index: 100;
+}
+
+#navigation ul li a{
+  display: block;
+  padding: 0 8px;
+  background: #EEEEEE;
+  font-size: 15px;
+}
+#navigation ul li ul{
+  background-color: #88c366;
+  position: absolute;
+  width: 100px;
+  overflow: hidden;
+  display: none;
+}
+#navigation ul li:hover ul{
+  background-color: #88c366;
+  position: absolute;
+  width: 100px;
+  display: block;
+}
+#navigation ul li ul li{
+  border-bottom: 1px solid #BBB;
+  text-align: left;
+  width: 110px;
+}
+#content{
+  width: 784px;
+  padding: 8px;
+  margin: 8px auto;
+}
+
+.content_left{
+  background: #eee;
+  border: 1px solid #AAAAAA;
+  width: 180px;
+  float: left;
+  margin-right: 10px;
+}
+.content_right
+{
+  background: #eee;
+  border: 1px solid #AAAAAA;
+  width: 586px;
+  float: left;
+}
+.global_module{
+  position: relative;
+  background: #EEEEEE;
+  padding-bottom: 8px;
+}
+.module_up_down{
+  position:absolute;
+  top:9px;
+  right:10px;
+  cursor: pointer;
+}
+
+.procatalog .m_treeview li.m_expanded{
+  padding-left: 16px;
+  background:url("../images/block.gif") no-repeat 0 0;
+}
+.procatalog .m_treeview li.m_expanded  ul li{
+  padding-left: 20px;
+  background:url("../images/flag.gif") no-repeat 0 0;
+  /*list-style-image:url("../images/flag.gif");*/
+}
+
+.content_right .ad{
+  margin-bottom: 10px;
+  width: 586px;
+  height: 150px;
+  overflow: hidden;
+  position: relative;
+}
+
+.content_right .slider , .content_right .num{
+  position: absolute;
+}
+.content_right .num{
+  display: inline;
+  right:5px;
+  bottom: 5px;
+}
+.num li{
+  display: inline;
+  border: 1px solid #AAAAAA;
+}
+.content_right .prolist{
+  position: relative;
+  height: 220px;
+  margin-bottom: 10px;
+  overflow: hidden;
+  border:1px solid #AAAAAA;
+  background: #FFFFFF;
+}
+
+.content_right .prolist .prolist_content{
+  position: absolute;
+  width: 1800px;
+  top:26px;
+  left:0px;
+  padding: 20px 0 0 8px;
+}
+.content_right .prolist ul li{
+  float: left;
+  display: inline;
+  text-align: center;
+  margin-right: 22px;
+}
+
+.content_right .prolist ul li span{
+  display: block;
+}
+.content_right .module_right_left{
+  position:absolute;
+  top:5px;
+  right: 10px;
+}
